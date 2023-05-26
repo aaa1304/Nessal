@@ -1,0 +1,72 @@
+
+
+<div class="opacity" style="display: none;"></div>
+  <style>
+    .alert-al {
+      display: inline-block;
+      background-color: #3d4a59;
+      color: wheat;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .icon-btn-close {
+      border-bottom: 1px solid black;
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+    }
+
+    .icone {
+      font-size: 30px;
+      color: #00ffea;
+    }
+    .icone:hover{
+      cursor: pointer;
+    }
+
+    .alert-p, .logo-p {
+      text-align: center;
+      font-size: 30px;
+      padding: 0 20px;
+    }
+
+    #div-alert {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.699);
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+      width: 100%;
+    }
+  </style>
+  <div id="div-alert" class="div-alert">
+    <div class="alert-al">
+      <div class="icon-btn-close">
+        <span id="icon-close" class="icon-cross icone"></span>
+      </div>
+      <p class="alert-p">This page is currently unavailable</p>
+    </div>
+
+  </div>
+
+<aside class="sidebar" style="display: none;">
+  <div style="padding: 10px 0;">
+    <div class="logo-icon">
+      <a class="sd-logo" href="#">Nessal</a>
+      <span id="close-icon" class="icon-cross close-icon"></span>
+    </div>
+  </div>
+
+  <ul>
+    <li><a href="#">Services</a></li>
+    <li><a id="not-works" href="#">Shopping</a></li>
+    <li><a href="#About">About</a></li>
+    <li><a id="not-workl" href="#">Blog</a></li>
+    <li><a  href="#Cont">Contact</a></li>
+  </ul>
+
+</aside>
